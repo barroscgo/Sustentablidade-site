@@ -1,0 +1,27 @@
+section{
+    background-image: url("https://recasensusa.com/wp-content/uploads/2020/03/R_102.jpg");
+	height: 100vh;
+	width: 100%;
+}
+
+nav{
+    background-image: url("https://images.unsplash.com/photo-1607433299953-b1c5cf96e0d5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.navbar{
+    height: 60px;
+}
+
+.card-text{
+    padding: 10px;
+    margin: 10px;
+}
+.card-title{
+    padding: 6px;
+    margin: 6px;
+}
+
+footer{
+    background-image: url("https://images.unsplash.com/photo-1607433299953-b1c5cf96e0d5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
