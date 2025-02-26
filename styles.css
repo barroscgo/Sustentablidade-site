@@ -1,6 +1,12 @@
-section{
-    background-image: url("https://recasensusa.com/wp-content/uploads/2020/03/R_102.jpg");
+body{
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-verde-de-grama-falsa_53876-16313.jpg?t=st=1740444894~exp=1740448494~hmac=bd6c2bc3af801936bc78e902a541d764c152a395c40717012da8261ced0bbae8&w=1060");
 	height: 100vh;
+	width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section{
+    height: 100vh;
 	width: 100%;
 }
 
@@ -85,4 +91,19 @@ input[type="submit"]:hover {
 
 .underlineHover:hover {
     text-decoration: underline;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Mantém o nav sempre acima do conteúdo */
+}
+section.container-fluid {
+    padding-bottom: 200px; /* Ajuste conforme necessário */
+    margin-top: 100px;
+    height: 100vh;
+	width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
