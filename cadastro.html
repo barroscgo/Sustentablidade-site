@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Gabriel Carlos">
+    <link rel="stylesheet" href="styles.css">
+    <script src="validacoes.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <title>cadastro</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand text-white" href="index.html">
+            <img class="img-fluid" src="./images/imgNav.png" alt="logo" width="80" height="40">
+        </a>
+        <button
+            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+            aria-controls = "navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="login.html">Login <span class="sr-only"> (current) </span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Página inicial</a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" 
+                data-toggle="dropdown" aria-haspopup="true"  aria-expanded="false">
+                Saiba mais
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="reciclagem.html">Reciclagem</a>
+                <a class="dropdown-item" href="futuroVerde.html">Iniciativas Verdes</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#"> impacto das mudanças climáticas</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <section>
+        <div class="wrapper fadeInDown">
+          <div id="formContent text-center mb-3">
+      
+            <div class="fadeIn first">
+              <img src="./images/login.jpg" id="icon" alt="Icone do login" />
+            </div>
+            <ul class="nav nav-pills nav-justified mb-3" id="ex1" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="tab-login" data-mdb-pill-init href="login.html" role="tab"
+                  aria-controls="pills-login" aria-selected="true">Login</a>
+              </li>
+              <li class="nav-item mx-2" role="presentation">
+                <a class="nav-link active" id="tab-register" data-mdb-pill-init href="#pills-register" role="tab"
+                  aria-controls="pills-register" aria-selected="false">Cadastro</a>
+              </li>
+            </ul>
+
+            <form>
+              <input type="text" id="cadastro" class="fadeIn second" name="cadastro" placeholder="Username">
+              <input type="password" id="password" class="fadeIn third" name="senha" placeholder="Senha">
+              <input type="password" id="confirmPassword" class="fadeIn fourth" name="senha" placeholder="Confirmação de senha">
+              <input type="submit" class="fadeIn fifth" value="Cadastrar">
+              <p id="error-message" style="color: red; display: none;">Erro no cadastro!</p>
+              <p id="success-message" style="color: green; display: none;">Cadastro realizado com sucesso!</p>
+            </form>
+
+        
+          </div>
+        </div>
+
+      </section>
+      
+
+      <footer>
+        <footer class="text-center text-white">
+            <!-- Copyright -->
+            <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2024 Copyright:
+              <a class="text-white" href="index.html">Sustentabilidade</a>
+            </div>
+      </footer>
+    
+      <!-- Adicionando os scripts necessários -->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
